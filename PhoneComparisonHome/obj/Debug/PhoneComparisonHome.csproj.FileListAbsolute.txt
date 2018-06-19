@@ -1,0 +1,10 @@
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.exe.config
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.exe
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.pdb
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.Properties.Resources.resources
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.exe
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.pdb
+C:\Users\student\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.frmHome.resources
