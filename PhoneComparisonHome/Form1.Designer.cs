@@ -33,10 +33,13 @@
             this.grpHmBox = new System.Windows.Forms.GroupBox();
             this.btnKnowledge = new System.Windows.Forms.Button();
             this.btnPhone = new System.Windows.Forms.Button();
-            this.picBackImg = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pnlHome = new System.Windows.Forms.Panel();
+            this.lblSearchPrompt = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.grpHmBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBackImg)).BeginInit();
+            this.pnlHome.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnHome
@@ -51,6 +54,7 @@
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // grpHmBox
             // 
@@ -90,41 +94,82 @@
             this.btnPhone.Text = "Phone Comparison";
             this.btnPhone.UseVisualStyleBackColor = false;
             // 
-            // picBackImg
+            // pnlHome
             // 
-            this.picBackImg.Image = global::PhoneComparisonHome.Properties.Resources.home_background;
-            this.picBackImg.Location = new System.Drawing.Point(219, 0);
-            this.picBackImg.Name = "picBackImg";
-            this.picBackImg.Size = new System.Drawing.Size(612, 469);
-            this.picBackImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBackImg.TabIndex = 1;
-            this.picBackImg.TabStop = false;
-            this.picBackImg.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pnlHome.BackgroundImage = global::PhoneComparisonHome.Properties.Resources.home_background;
+            this.pnlHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlHome.Controls.Add(this.textBox1);
+            this.pnlHome.Controls.Add(this.btnSearch);
+            this.pnlHome.Controls.Add(this.comboBox1);
+            this.pnlHome.Controls.Add(this.lblSearchPrompt);
+            this.pnlHome.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.pnlHome.Location = new System.Drawing.Point(219, 0);
+            this.pnlHome.Name = "pnlHome";
+            this.pnlHome.Size = new System.Drawing.Size(605, 469);
+            this.pnlHome.TabIndex = 3;
+            this.pnlHome.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // groupBox1
+            // lblSearchPrompt
             // 
-            this.groupBox1.Location = new System.Drawing.Point(410, 156);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 100);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.lblSearchPrompt.AutoSize = true;
+            this.lblSearchPrompt.BackColor = System.Drawing.Color.Transparent;
+            this.lblSearchPrompt.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSearchPrompt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(96)))), ((int)(((byte)(152)))));
+            this.lblSearchPrompt.Location = new System.Drawing.Point(138, 140);
+            this.lblSearchPrompt.Name = "lblSearchPrompt";
+            this.lblSearchPrompt.Size = new System.Drawing.Size(97, 33);
+            this.lblSearchPrompt.TabIndex = 0;
+            this.lblSearchPrompt.Text = "Search:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Name",
+            "Brand"});
+            this.comboBox1.Location = new System.Drawing.Point(423, 140);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 37);
+            this.comboBox1.TabIndex = 1;
+            this.comboBox1.Text = "Name";
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(96)))), ((int)(((byte)(152)))));
+            this.btnSearch.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnSearch.FlatAppearance.BorderSize = 0;
+            this.btnSearch.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.Color.White;
+            this.btnSearch.Location = new System.Drawing.Point(200, 197);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(266, 50);
+            this.btnSearch.TabIndex = 2;
+            this.btnSearch.Text = "Advanced Search";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(257, 140);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(143, 40);
+            this.textBox1.TabIndex = 3;
             // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(830, 468);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.picBackImg);
+            this.ClientSize = new System.Drawing.Size(824, 468);
+            this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.grpHmBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmHome";
             this.Text = "Phone Comparison";
             this.grpHmBox.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBackImg)).EndInit();
+            this.pnlHome.ResumeLayout(false);
+            this.pnlHome.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -135,8 +180,11 @@
         private System.Windows.Forms.GroupBox grpHmBox;
         private System.Windows.Forms.Button btnKnowledge;
         private System.Windows.Forms.Button btnPhone;
-        private System.Windows.Forms.PictureBox picBackImg;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Panel pnlHome;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label lblSearchPrompt;
     }
 }
 

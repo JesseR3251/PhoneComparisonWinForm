@@ -12,12 +12,17 @@ namespace PhoneComparisonHome
 {
     public partial class frmHome : Form
     {
+
         public frmHome()
         {
             InitializeComponent();
         }
 
-        class
+        public static Color SetTransparency(int A, Color color)
+        {
+            return Color.FromArgb(A, color.R, color.G, color.B);
+        }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -26,7 +31,25 @@ namespace PhoneComparisonHome
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
+            
+        }
 
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void groupBox1_Enter_1(object sender, EventArgs e)
+        {
         }
     }
 }
