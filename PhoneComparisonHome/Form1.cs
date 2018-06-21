@@ -16,6 +16,7 @@ namespace PhoneComparisonHome
         public frmHome()
         {
             InitializeComponent();
+            pnlPhnComp.Visible = false;
         }
 
         public static Color SetTransparency(int A, Color color)
@@ -44,12 +45,24 @@ namespace PhoneComparisonHome
 
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-        }
 
         private void groupBox1_Enter_1(object sender, EventArgs e)
         {
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+
+
+            pnlPhnComp.Visible = false;
+
+        }
+
+        private void btnPhone_Click(object sender, EventArgs e)
+        {
+
+            pnlPhnComp.Visible = true;
+
         }
     }
 }
