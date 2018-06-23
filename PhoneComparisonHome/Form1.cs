@@ -55,6 +55,8 @@ namespace PhoneComparisonHome
 
 
             pnlPhnComp.Visible = false;
+            btnHome.BackColor = Color.FromArgb(91, 155, 213);
+            btnPhone.BackColor = Color.FromArgb(224, 224, 224);
 
         }
 
@@ -62,6 +64,8 @@ namespace PhoneComparisonHome
         {
 
             pnlPhnComp.Visible = true;
+            btnPhone.BackColor = Color.FromArgb(91, 155, 213);
+            btnHome.BackColor = Color.FromArgb(224, 224, 224);
 
         }
     }

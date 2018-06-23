@@ -34,12 +34,12 @@
             this.btnKnowledge = new System.Windows.Forms.Button();
             this.btnPhone = new System.Windows.Forms.Button();
             this.pnlHome = new System.Windows.Forms.Panel();
+            this.pnlPhnComp = new System.Windows.Forms.Panel();
+            this.lblPhnComp = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lblSearchPrompt = new System.Windows.Forms.Label();
-            this.pnlPhnComp = new System.Windows.Forms.Panel();
-            this.lblPhnComp = new System.Windows.Forms.Label();
             this.grpHmBox.SuspendLayout();
             this.pnlHome.SuspendLayout();
             this.pnlPhnComp.SuspendLayout();
@@ -114,6 +114,27 @@
             this.pnlHome.TabIndex = 3;
             this.pnlHome.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // pnlPhnComp
+            // 
+            this.pnlPhnComp.BackColor = System.Drawing.Color.White;
+            this.pnlPhnComp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlPhnComp.Controls.Add(this.lblPhnComp);
+            this.pnlPhnComp.Location = new System.Drawing.Point(0, 0);
+            this.pnlPhnComp.Name = "pnlPhnComp";
+            this.pnlPhnComp.Size = new System.Drawing.Size(605, 469);
+            this.pnlPhnComp.TabIndex = 4;
+            // 
+            // lblPhnComp
+            // 
+            this.lblPhnComp.AutoSize = true;
+            this.lblPhnComp.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhnComp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(96)))), ((int)(((byte)(152)))));
+            this.lblPhnComp.Location = new System.Drawing.Point(194, 41);
+            this.lblPhnComp.Name = "lblPhnComp";
+            this.lblPhnComp.Size = new System.Drawing.Size(227, 33);
+            this.lblPhnComp.TabIndex = 0;
+            this.lblPhnComp.Text = "Phone Comparison";
+            // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -160,27 +181,6 @@
             this.lblSearchPrompt.Size = new System.Drawing.Size(97, 33);
             this.lblSearchPrompt.TabIndex = 0;
             this.lblSearchPrompt.Text = "Search:";
-            // 
-            // pnlPhnComp
-            // 
-            this.pnlPhnComp.BackColor = System.Drawing.Color.White;
-            this.pnlPhnComp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlPhnComp.Controls.Add(this.lblPhnComp);
-            this.pnlPhnComp.Location = new System.Drawing.Point(0, 0);
-            this.pnlPhnComp.Name = "pnlPhnComp";
-            this.pnlPhnComp.Size = new System.Drawing.Size(605, 469);
-            this.pnlPhnComp.TabIndex = 4;
-            // 
-            // lblPhnComp
-            // 
-            this.lblPhnComp.AutoSize = true;
-            this.lblPhnComp.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhnComp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(96)))), ((int)(((byte)(152)))));
-            this.lblPhnComp.Location = new System.Drawing.Point(194, 41);
-            this.lblPhnComp.Name = "lblPhnComp";
-            this.lblPhnComp.Size = new System.Drawing.Size(227, 33);
-            this.lblPhnComp.TabIndex = 0;
-            this.lblPhnComp.Text = "Phone Comparison";
             // 
             // frmHome
             // 
