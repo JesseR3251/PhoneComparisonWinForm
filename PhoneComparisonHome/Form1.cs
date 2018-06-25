@@ -17,6 +17,7 @@ namespace PhoneComparisonHome
         {
             InitializeComponent();
             pnlPhnComp.Visible = false;
+            pnlKnowledge.Visible = false;
         }
 
         public static Color SetTransparency(int A, Color color)
@@ -53,10 +54,12 @@ namespace PhoneComparisonHome
         private void btnHome_Click(object sender, EventArgs e)
         {
 
-
+            pnlHome.Visible = true;
             pnlPhnComp.Visible = false;
+            pnlKnowledge.Visible = false;
             btnHome.BackColor = Color.FromArgb(91, 155, 213);
             btnPhone.BackColor = Color.FromArgb(224, 224, 224);
+            btnKnowledge.BackColor = Color.FromArgb(224, 224, 224);
 
         }
 
@@ -64,8 +67,26 @@ namespace PhoneComparisonHome
         {
 
             pnlPhnComp.Visible = true;
+            pnlKnowledge.Visible = false;
+            pnlHome.Visible = false;
             btnPhone.BackColor = Color.FromArgb(91, 155, 213);
             btnHome.BackColor = Color.FromArgb(224, 224, 224);
+            btnKnowledge.BackColor = Color.FromArgb(224, 224, 224);
+
+        }
+
+        private void btnKnowledge_Click(object sender, EventArgs e)
+        {
+            pnlKnowledge.Visible = true;
+            pnlHome.Visible = false;
+            pnlPhnComp.Visible = false;
+            btnKnowledge.BackColor = Color.FromArgb(91, 155, 213);
+            btnHome.BackColor = Color.FromArgb(224, 224, 224);
+            btnPhone.BackColor = Color.FromArgb(224, 224, 224);
+        }
+
+        private void pnlPhnComp_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

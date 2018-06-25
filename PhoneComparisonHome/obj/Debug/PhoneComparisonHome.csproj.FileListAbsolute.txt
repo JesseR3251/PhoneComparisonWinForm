@@ -18,3 +18,23 @@ C:\Users\matt7\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneCompari
 C:\Users\matt7\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.exe
 C:\Users\matt7\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.pdb
 C:\Users\matt7\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csprojAssemblyReference.cache
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.exe.config
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.exe
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.pdb
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csprojResolveAssemblyReference.cache
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.frmHome.resources
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.Properties.Resources.resources
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csproj.GenerateResource.Cache
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csproj.CoreCompileInputs.cache
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.exe
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm - Copy\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.pdb
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.exe.config
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.exe
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\bin\Debug\PhoneComparisonHome.pdb
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csprojResolveAssemblyReference.cache
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.frmHome.resources
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.Properties.Resources.resources
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csproj.GenerateResource.Cache
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.csproj.CoreCompileInputs.cache
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.exe
+C:\Users\Jesse\Desktop\PhoneComparisonWinForm\PhoneComparisonHome\obj\Debug\PhoneComparisonHome.pdb
